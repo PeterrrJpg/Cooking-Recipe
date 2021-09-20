@@ -29,6 +29,7 @@ void printTitle() {
 void printFoodList() {
     printf("메뉴(MENU)\n\n");
     printf("#1 : 김치볶음밥(Kimchi Fried Rice)\n");
+    printf("#2 : 주먹밥(Rice Ball)\n");
     printf("\n\n");
 }
 
@@ -43,6 +44,14 @@ void printRecipe(int menu) {
         printf("4. 밥 + 굴 소스 1스푼 넣고 볶기\n");
         printf("5. 계란 2~3개 넣고 볶기\n");
 
+        printf("\nEnjoy!\n");
+    } else if (menu == 2) {
+        printf("Recipe for 주먹밥(Rice Ball)\n\n");
+        printf("1. 밥, 스팸, 김치, 참치 볶을 준비하기\n");
+        printf("2. 스팸, 김치, 참치 볶기\n");
+        printf("3. 참기름 1스푼, 김자반 넣고 비비기\n");
+        printf("4. 주먹밥 모양으로 만들기\n");
+  
         printf("\nEnjoy!\n");
     } else {
         printf("Invalid Menu :(\n\n");
